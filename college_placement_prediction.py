@@ -9,7 +9,7 @@ import numpy as np
 import pickle as pk
 import streamlit as st
 
-loaded_model=pk.load(open('C:\ml model college placement/trained_model.sav','rb'))
+loaded_model=pk.load(open('trained_model.sav','rb'))
 
 def placement(input_data):
     input_data_array=np.asarray(input_data)
