@@ -25,7 +25,7 @@ def main():
     CGPA=st.number_input('Enter CGPA Of Student Between 0 To 10')
     IQ=st.number_input('Enter IQ Of Student Between 0 To 130 And Above')
     prediction_placement=' '
-    if st.button('Click Here To Check Whether Student Will Get Placed Or Not'):
+    if st.button('Click Here To Check Whether Student Will Get College Placement Or Not'):
         prediction_placement=placement([CGPA,IQ])
     st.success(prediction_placement)
     st.subheader('Exploratory Data Analysis Done And Machine Learning Model Deployed By "Anubhav Kumar Gupta"')
