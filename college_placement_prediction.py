@@ -22,7 +22,7 @@ def placement(input_data):
         
 def main():
     st.title('Student College Placement Prediction By Machine Learning')
-    CGPA=st.number_input('Enter CGPA Of Student From 0 To 10')
+    CGPA=st.number_input('Enter CGPA Of Student Between 0 To 10')
     IQ=st.number_input('Enter IQ Of Student Between 0 To 130 And Above')
     prediction_placement=' '
     if st.button('Click Here To Check Whether Student Will Get Placed Or Not'):
