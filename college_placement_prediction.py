@@ -21,7 +21,7 @@ def placement(input_data):
         return 'Yes Student Will Get College Placement'
         
 def main():
-    st.title('Student College Placement Prediction By Machine Learning')
+    st.title('Student College Placement Prediction Using Machine Learning')
     CGPA=st.number_input('Enter CGPA Of Student Between 0 To 10')
     IQ=st.number_input('Enter IQ Of Student Between 0 To 130 And Above')
     prediction_placement=' '
