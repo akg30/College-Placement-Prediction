@@ -28,7 +28,7 @@ def main():
     if st.button('Click Here To Check Whether Student Will Get College Placement Or Not'):
         prediction_placement=placement([CGPA,IQ])
     st.success(prediction_placement)
-    st.subheader('Exploratory Data Analysis Done And Machine Learning Model Deployed By "Anubhav Kumar Gupta"')
+    st.markdown('##### Exploratory Data Analysis Done And Machine Learning Model Deployed By "Anubhav Kumar Gupta"')
 
 if __name__=='__main__':
     main()
